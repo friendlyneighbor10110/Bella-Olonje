@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+}
+ /* HEADER */
+.header {
+    padding: 27px 0;
+    
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 206px;
+    height: 102px;
+    background-image: url(../icons/logo.png);
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item { 
+    margin-right: 114px;
+    list-style: none;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #252B42;
+}
+
+.nav__link--orange {
+    color: #FA4A0C; 
+}
+/* HEADER */
+
+/* SECTION MAIN */
+.main {
+    background: url('../images/upperbg.jpg') center center/cover, no-repeat;
+    
+}
+
+.main__content {
+    padding: 73px 0 146px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    
+    font-family: 'Montserrat';
+    color: #F7F7F7;
+}
+
+.main__title {
+    color: #F7F7F7;
+    margin-bottom: 17px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.main__text {
+    max-width: 937px;
+    width: 100%;
+    margin: 0 auto 17px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+}
+
+.main__subtitle {
+    font-weight: 500;
+    margin-bottom: 54px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #f7f7f7;
+}
+
+.buttons {
+    max-width: 506px;
+    width: 100%;
+}
+
+.main__buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 16px 58px;
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn--orange {
+    background-color: #FA4A0C;
+    border: none;
+
+}
+/* SECTION MAIN */
+.device {
+    background-color: #e5e5e5;
+    
+}
+
+.device__wrapper {
+    position: relative;
+    width: 548px;
+}
+
+.device__img {
+    width: 299px;
+    height: 586px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.device__img--left {
+    width: 299px;
+    height: 586px;
+    background-image: url(../images/mobile_1.png);
+    z-index: 1;
+    top: -220px;
+    left: 336px;
+}
+
+.device__img--right {
+    width: 285px;
+    height: 531px;
+    background-image: url(../images/mobile_2.png);
+}
+/* SECTION  */
